@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="icon" type="x/icons" href="pic/bracket.ico">
+    <link rel="stylesheet" href="style1.css">
+    <title>Webuilder</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "btAWhE4uFtSH2D7M5",
+            });
+        })();
+    </script>
+</head>
+
+<body>
+    <header id="header">
+        <h2>Web<d>uider</d>.</h2>
+        <div class="nav">
+            <a href="#page">Home</a>
+            <a href="#page2" id="Skills">Skills</a>
+            <a href="#page3" id="Work">Work</a>
+            <a href="#page4" id="Contacts">Contact</a>
+        </div>
+    </header>
+
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+    <main>
+        <section class="page" id="page">
+            <div class="line">
+                <div class="note">
+                    <h1>Hi,<br>I'am <d>Nagesh</d><br>Front-end developer</h1>
+                    <p>Hello, I’m Nagesh.
+                        I’m a passionate front-end developer based in mumbai, India. With a keen eye for design and a
+                        love
+                        for coding, I am creating visually stunning, responsive, and user-friendly websites. My
+                        goal is to bring your digital vision to life with clean and efficient code.</p>
+                    <a href="#page4"><button>Contact</button></a>
+                </div>
+                <div class="link">
+                    <a href="https://www.facebook.com/share/JtwqnZgAXhYbPzLW/?mibextid=qi2Omg"><i
+                            class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </div>
+            </div>
+            <div class="line2">
+                <div class="shape"><img src="pic/man.png"></div>
+            </div>
+        </section>
+        <section class="page2" id="page2">
+            <div class="lang">
+                <div class="box">
+                    <i class="ri-html5-fill"></i>
+                    <div class="intro">
+                        <h3>HTML</h3>
+                        <p> HTML, or HyperText Markup Language, is the standard language used to create and design
+                            webpages. It structures the content on the web by using a variety of tags and elements.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i id="css" class="ri-css3-fill"></i>
+                    <div class="intro">
+                        <h3>CSS</h3>
+                        <p>CSS, or Cascading Style Sheets, is a stylesheet language used to describe the presentation
+                            and layout of HTML documents. It allows developers to control the visual appearance of
+                            web pages.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i id="js" class="ri-javascript-fill"></i>
+                    <div class="intro" id="js-intro">
+                        <h3>JavaScript</h3>
+                        <p>JavaScript (JS) is a versatile programming language primarily used to create dynamic and
+                            interactive features on websites.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page3" id="page3">
+            <div class="scroll">
+                <div class="card">
+                    <div class="pic"><img src="pic/web1.png" width="300px"></div>
+                    <div class="desp">
+                        <h3>Webuilder</h3>
+                        <p>05-19-2024</p>
+                        <p>it is a front-end developer portfolio website. with simple and clean design.</p>
+                        <div class="mbtn"><a href="webuilder.html"><button>more</button></a></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="pic"><img src="pic/web1.png" width="300px"></div>
+                    <div class="desp">
+                        <h3>Webuilder</h3>
+                        <p>05-19-2024</p>
+                        <p>it is a front-end developer portfolio website. with simple and clean design.</p>
+                        <div class="mbtn"><a href="webuilder.html"><button>more</button></a></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="pic"><img src="pic/web1.png" width="300px"></div>
+                    <div class="desp">
+                        <h3>Webuilder</h3>
+                        <p>05-19-2024</p>
+                        <p>it is a front-end developer portfolio website. with simple and clean design.</p>
+                        <div class="mbtn"><a href="webuilder.html"><button>more</button></a></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="pic"><img src="pic/web1.png" width="300px"></div>
+                    <div class="desp">
+                        <h3>Webuilder</h3>
+                        <p>05-19-2024</p>
+                        <p>it is a front-end developer portfolio website. with simple and clean design.</p>
+                        <div class="mbtn"><a href="webuilder.html"><button>more</button></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page4" id="page4">
+            <div class="contact">
+                <div class="img"><img src="pic/bg.avif"></div>
+                <div class="form">
+                    <h2>Web<d>uider</d>.</h2>
+                    <form>
+                        <!-- <input type="hidden" name="access_key" value="475c48ac-3177-4ee3-8c50-5721b86eb088"> -->
+                        <input type="text" placeholder="Name" name="Name" id="Name" required><br>
+                        <!-- <div id="location">
+                            <input type="text" placeholder="City" name="City" required>
+                            <input type="text" placeholder="State" name="State" required>
+                        </div> -->
+                        <input type="email" placeholder="Email" name="Email" id="Email" required><br>
+                        <textarea placeholder="Message" name="Message" id="Message" required></textarea><br>
+                        <div class="formbtn"><button onclick="SendMail()" type="submit"><i
+                                    class="ri-arrow-right-line"></i></button></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="page5">
+            <div class="up"><a href="#header"><button><i class="ri-arrow-up-line"></i></button></a></div>
+        </section>
+    </main>
+    <script>
+         window.onscroll = function () { myFunction() };
+
+        function myFunction() {
+             var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+             var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+             var scrolled = (winScroll / height) * 100;
+             document.getElementById("myBar").style.width = scrolled + "%";
+         }
+
+         document.getElementById('Skills').onclick = function () {
+             document.getElementById('page2');
+         };
+
+        function SendMail() {
+            console.log('clicked')
+            var params = {
+                from_name: document.getElementById("Name").value,
+                Message: document.getElementById("Message").value,
+                Email_id: document.getElementById("Email").value
+            }
+            emailjs.send("service_j7dmrm9", "template_rcl0ean", params).then(function (res) {
+                alert("Successful" + res.status);
+            })
+        }
+    </script>
+</body>
+
+</html>
